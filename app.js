@@ -32,8 +32,8 @@ const calculateAge = () => {
   }
 
   resultDisplay.innerHTML = `
-      <span class="text-purple-700 font-bold">${ageYears}</span> Years, 
-      <span class="text-green-600 font-bold">${ageMonths}</span> Months, 
-      <span class="text-red-500 font-bold">${ageDays}</span> Days
+      <span class="year">${ageYears}</span> Years, 
+      <span class="month">${ageMonths}</span> Months, 
+      <span class="day">${ageDays}</span> Days
   `;
 };
